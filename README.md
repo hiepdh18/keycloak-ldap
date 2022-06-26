@@ -1,0 +1,1 @@
+docker run --rm --name keycloak_exporter -v /opt/keycloak_export:/opt/jboss/export quay.io/keycloak/keycloak:legacy -e DB_VENDOR=POSTGRES -e DB_ADDR=postgres -e DB_DATABASE=keycloak -e DB_USER=keycloak -e DB_SCHEMA=public -e DB_PASSWORD=password  -Dkeycloak.migration.action=export -Dkeycloak.migration.provider=dir -Dkeycloak.migration.dir=/opt/jboss/export

@@ -1,0 +1,67 @@
+{
+  "realm" : "master",
+  "users" : [ {
+    "id" : "75ef6de1-da6f-4191-9140-7c4502f6cbae",
+    "createdTimestamp" : 1656224956583,
+    "username" : "admin",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "credentials" : [ {
+      "id" : "1ba70cf7-6794-4581-be2f-189af9cd7b5d",
+      "type" : "password",
+      "createdDate" : 1656224956621,
+      "secretData" : "{\"value\":\"sy1BgxIcASlPzzoyoIfY2xgmcIFbtwWNe3daSZqXt36Y7E6w0sh5HGx0uE9npFtFOgUrLP1AdvMWpiqq6XNYtA==\",\"salt\":\"occxzMzInvxirqKoipeHwQ==\",\"additionalParameters\":{}}",
+      "credentialData" : "{\"hashIterations\":27500,\"algorithm\":\"pbkdf2-sha256\",\"additionalParameters\":{}}"
+    } ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "admin", "default-roles-master" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "d0e6fd5e-0038-404f-80c2-e5b89f934765",
+    "createdTimestamp" : 1656267503034,
+    "username" : "user01",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "User1",
+    "lastName" : "Bar1",
+    "federationLink" : "2711b8e4-e5ec-4e3b-95ee-68567c566a3e",
+    "attributes" : {
+      "LDAP_ENTRY_DN" : [ "cn=user01,ou=users,dc=example,dc=org" ],
+      "modifyTimestamp" : [ "20220626062842Z" ],
+      "createTimestamp" : [ "20220626062842Z" ],
+      "LDAP_ID" : [ "f7d71afa-8964-103c-8e6a-e77ae8379fbc" ]
+    },
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-master" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  }, {
+    "id" : "3db51b1e-d012-4907-9f19-f712650774f4",
+    "createdTimestamp" : 1656267503519,
+    "username" : "user02",
+    "enabled" : true,
+    "totp" : false,
+    "emailVerified" : false,
+    "firstName" : "User2",
+    "lastName" : "Bar2",
+    "federationLink" : "2711b8e4-e5ec-4e3b-95ee-68567c566a3e",
+    "attributes" : {
+      "LDAP_ENTRY_DN" : [ "cn=user02,ou=users,dc=example,dc=org" ],
+      "modifyTimestamp" : [ "20220626062842Z" ],
+      "createTimestamp" : [ "20220626062842Z" ],
+      "LDAP_ID" : [ "f7dc3ada-8964-103c-8e6b-e77ae8379fbc" ]
+    },
+    "credentials" : [ ],
+    "disableableCredentialTypes" : [ ],
+    "requiredActions" : [ ],
+    "realmRoles" : [ "default-roles-master" ],
+    "notBefore" : 0,
+    "groups" : [ ]
+  } ]
+}
